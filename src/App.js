@@ -1,24 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import Firstsection from './components/Firstsection';
+import ContactSection from './components/Contactform'; // Keep this import
+import { Routes, Route } from 'react-router-dom';
+import Nav from './components/Nav';
+import Footer from './components/Footer';
+// Remove the duplicate import
+// import ContactSection from './ContactForm';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Nav/>
+      <Routes>
+        <Route path="/" element={<Firstsection />} />
+        <Route path="/contact" element={<ContactSection />} />
+      </Routes>    
+      <Footer/>
+    </>
   );
 }
 
