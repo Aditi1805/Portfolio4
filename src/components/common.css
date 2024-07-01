@@ -566,8 +566,6 @@
 }
 
 /* common.css */
-
-/* Adjustments for contact section */
 .contact-section {
   background-color: #f8f9fa; /* Gray background */
   padding: 100px 0; /* Adjust padding as needed */
@@ -591,7 +589,7 @@
 }
 
 .contact-info {
- justify-content: center; /* Styles for contact information section */
+  justify-content: center; /* Styles for contact information section */
 }
 
 .contact-info ul {
@@ -616,10 +614,10 @@
   margin: 0;
   color: black; /* Dark text color */
   margin-left: 15vw;
-  
 }
-.contact-info{
-  margin-top:30vh;
+
+.contact-info {
+  margin-top: 30vh;
 }
 
 .section-title-s2 {
@@ -660,7 +658,6 @@
   background-color: #fff; /* White background */
   border: 2px solid #ced4da; /* Border color */
   border-radius: 0;
- /* Text color */
   display: block;
   font-size: 1rem;
   font-weight: 400;
@@ -699,15 +696,25 @@
 @media (max-width: 992px) {
   .contact-info {
     text-align: center; /* Center align contact info on smaller screens */
+    margin-top: 20vh; /* Reduce margin from top on smaller screens */
   }
+
   .section-title-s2 {
     text-align: center; /* Center align section title on smaller screens */
   }
+
   .contact-form {
     padding-left: 0; /* Remove left padding on form for better alignment */
   }
+
   .contact-form form .form-group {
     margin-bottom: 15px; /* Reduce margin bottom between form groups */
+  }
+}
+
+@media (max-width: 768px) {
+  .contact-info {
+    margin-top: 10vh; /* Further reduce margin from top on smaller screens */
   }
 }
 
@@ -844,22 +851,20 @@
   padding-left: 50px;
   position: relative;
 }
-
-
 .site-footer {
   background-color: #262b3e;
   background-size: cover;
   font-size: 15px;
   overflow: hidden;
   position: relative;
-
 }
+
 .site-footer .social-newsletter-area {
   background-color: #1c202e;
   padding: 55px 0 60px;
 }
 
-.site-footer .social-newsletter-area .social-newsletter-content>div:first-child {
+.site-footer .social-newsletter-area .social-newsletter-content > div:first-child {
   float: left;
   width: 320px;
 }
@@ -868,9 +873,11 @@
   overflow: hidden;
   padding-top: 28px;
 }
+
 .site-footer ul {
   list-style: none;
 }
+
 .site-footer .social-newsletter-area .social-area ul li {
   float: left;
 }
@@ -881,7 +888,7 @@
 
 .site-footer .social-newsletter-area .social-area ul a {
   background-color: #30364e;
-  border: 1px solid hsla(0,0%,100%,.1);
+  border: 1px solid hsla(0, 0%, 100%, .1);
   border-radius: 50px;
   color: #fff;
   display: block;
@@ -892,7 +899,7 @@
   width: 50px;
 }
 
-.site-footer .social-newsletter-area .social-newsletter-content>div:nth-child(2) {
+.site-footer .social-newsletter-area .social-newsletter-content > div:nth-child(2) {
   float: left;
   width: calc(100% - 640px);
 }
@@ -905,21 +912,24 @@
   display: inline-block;
   margin-left: -90px;
   max-width: 100%;
-
 }
-.site-footer .social-newsletter-area .social-newsletter-content>div:last-child {
+
+.site-footer .social-newsletter-area .social-newsletter-content > div:last-child {
   float: right;
   width: 320px;
 }
+
 .site-footer .social-newsletter-area .newsletter-area .inner {
   max-width: 400px;
 }
+
 .site-footer .social-newsletter-area .newsletter-area h3 {
   color: #fff;
   font-size: 1.25rem;
   font-weight: 400;
   margin: 0;
 }
+
 .site-footer .social-newsletter-area .newsletter-area form {
   margin-top: 25px;
   position: relative;
@@ -938,12 +948,11 @@
 .form-control {
   appearance: none;
   background-clip: padding-box;
-  
   display: block;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
   width: 100%;
 }
 
@@ -959,9 +968,11 @@
   top: 0;
   width: 55px;
 }
+
 .site-footer .upper-footer {
   padding: 90px 0;
 }
+
 .site-footer .widget-title {
   margin-bottom: 30px;
 }
@@ -975,6 +986,7 @@
   position: relative;
   text-transform: capitalize;
 }
+
 .site-footer .link-widget ul {
   float: left;
   width: 50%;
@@ -983,23 +995,27 @@
 .site-footer ul {
   list-style: none;
 }
+
 .site-footer .link-widget ul li {
   position: relative;
 }
+
 .site-footer li, .site-footer p {
   color: #cdced0;
 }
+
 .site-footer .link-widget ul a {
   color: #cdced0;
   font-weight: 500;
 }
+
 .site-footer .lower-footer {
   position: relative;
   text-align: center;
 }
 
 .site-footer .lower-footer .row .separator {
-  background: hsla(0,0%,100%,.1);
+  background: hsla(0, 0%, 100%, .1);
   height: 1px;
   left: 15px;
   position: absolute;
@@ -1017,11 +1033,13 @@
 .site-footer p {
   color: #cdced0;
 }
+
 .site-footer .lower-footer .extra-link {
   display: inline-block;
   float: right;
   overflow: hidden;
 }
+
 .site-footer .lower-footer .extra-link ul {
   list-style: none;
   overflow: hidden;
@@ -1030,11 +1048,63 @@
 .site-footer .lower-footer .extra-link ul li {
   float: left;
 }
+
 .site-footer li, .site-footer p {
   color: #cdced0;
 }
+
 .site-footer .lower-footer .extra-link ul a {
   color: #cdced0;
   font-size: 14px;
   font-size: .875rem;
+}
+
+@media (max-width: 768px) {
+  .site-footer .social-newsletter-area .social-newsletter-content > div {
+    float: none;
+    width: 100%;
+    text-align: center;
+  }
+
+  .site-footer .social-newsletter-area .logo-area img {
+    margin-left: 0;
+  }
+
+  .site-footer .upper-footer .col {
+    float: none;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .site-footer .link-widget ul,
+  .site-footer .line-widget-2 ul {
+    width: 100%;
+    text-align: center;
+  }
+
+  .site-footer .link-widget ul li,
+  .site-footer .line-widget-2 ul li {
+    float: none;
+    display: inline-block;
+    width: auto;
+    margin: 10px 0; /* Add margin for better spacing on mobile */
+  }
+
+  /* Add spacing for Practice Area items */
+  .site-footer .upper-footer .link-widget ul li {
+    margin: 15px 0;
+  }
+
+  .site-footer .lower-footer .copyright,
+  .site-footer .lower-footer .extra-link {
+    float: none;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .site-footer .lower-footer .extra-link ul li {
+    float: none;
+    display: inline-block;
+  }
 }

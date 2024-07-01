@@ -9,8 +9,7 @@ const Footer = () => {
             <div className="row">
               <div className="col col-xs-12">
                 <div className="social-newsletter-content clearfix">
-                  <div className="social-area">
-                  </div>
+                  <div className="social-area"></div>
                   <div className="logo-area">
                     <img src="../assets/img/logo2.png" alt="" />
                   </div>
@@ -59,7 +58,7 @@ const Footer = () => {
               <div className="col col-lg-3 col-md-6 col-12">
                 <div className="widget link-widget">
                   <div className="widget-title">
-                    <h3>Usefull Links</h3>
+                    <h3>Useful Links</h3>
                   </div>
                   <ul>
                     <li><a href="/contact">Contact us</a></li>
